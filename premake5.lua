@@ -19,6 +19,11 @@ project "ImGui"
 		"imgui_demo.cpp"
 	}
 
+    includedirs
+    {
+        "backends"
+    }
+
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"
